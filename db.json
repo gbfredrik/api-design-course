@@ -1,0 +1,41 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Post A"
+    },
+    {
+      "id": 2,
+      "title": "Post B"
+    },
+    {
+      "id": 3,
+      "title": "Post C"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "This is cool",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "This is not cool",
+      "postId": 1
+    },
+    {
+      "id": 3,
+      "body": "Great post!",
+      "postId": 3
+    },
+    {
+      "id": 4,
+      "body": "I like this",
+      "postId": 2
+    }
+  ],
+  "profile": {
+    "name": "Fred"
+  }
+}

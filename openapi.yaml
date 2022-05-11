@@ -1,0 +1,30 @@
+openapi: 3.0.1
+info:
+  title: FredsAPI
+  version: '0.1'
+  description: Fredr's API for the training
+  termsOfService: https://www.example.com/tos
+  contact:
+    name: Fredrik
+    email: test@example.com
+    url: https://www.example.com
+servers:
+  - url: https://www.typicode.com/typicode/demo/
+    variables: {}
+    description: Demo server by Typicode
+  - url: https://my-json-server.typicode.com/gbfredrik/api-design-course/
+    variables: {}
+    description: Fred's own mock DB server
+paths:
+  /posts:
+    summary: posts
+    description: Posts within the db
+    get:
+      summary: fetch posts
+      description: fetch posts from server
+      operationId: fetchPosts
+      responses:
+        default:
+          description: Default error sample response
+      tags:
+        - posts
